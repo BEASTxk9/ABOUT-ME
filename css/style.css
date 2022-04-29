@@ -19,6 +19,48 @@ a:hover{
     transition: 0.5s ease-in-out;
 }
 
+.homesec{
+    height: 100vh;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutsec{
+    height: 100%;
+}
+
+.skillsec{
+    height: 100%;
+}
+
+.testimonialsec{
+    height: 100%;
+}
+
 body{
     background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+}
+
+#testimonials{
+    margin-top: 5rem;
+    background-image: rgba(0,0,0,0.5);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.rounded-circle{
+    border-radius: 100%;
+}
+
+#carousel-img{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease-in-out;
+
 }
