@@ -62,7 +62,7 @@ body{
     border-radius: 50% !important;
 }
 
-#carousel-img{
+#carousel-img:hover{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     transition: 0.5s ease-in-out;
 
@@ -78,4 +78,24 @@ backdrop-filter: blur(2.1px);
 -webkit-backdrop-filter: blur(2.1px);
 border: 1px solid rgba(255, 255, 255, 0.12);
 opacity: 0.8;
+font-size: 20px;
+}
+
+nav:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease-in-out;
+    opacity:    1;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.projects-container img {
+    max-height: 400px;
+    flex-grow: 1;
+    object-fit: cover;
 }
